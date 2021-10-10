@@ -12,7 +12,7 @@ html {
    font-size: 19px;
 }
 a, article, body, div, figcaption, figure, footer, header, h1, 
-h2, h3, img, nav, p, ol, li {
+h2, h3, img, nav, p, ol, ul, li {
    border: 0;
    padding: 0;
    margin: 0;
@@ -22,7 +22,7 @@ img {
    height: auto;
    width: auto;
 }
-ol {
+ol, ul {
    list-style-type: none;
 }
 
@@ -153,7 +153,9 @@ article p#contentstart {
 .accent {
    font-weight: bold;
 }
-article div.contrastbox {
+
+/* main content lists */
+article ul {
    width: 30%;
    padding: 0.5em;
    margin: 0.5em auto;
@@ -162,12 +164,10 @@ article div.contrastbox {
    font-weight: bold;
    background-color: rgb(221,221,221);
 }
-article div.contrastbox p {
+article ul li {
    margin-bottom: 0;
    text-align: center;
 }
-
-/* main content lists */
 article  ol {
    width: 70%;
    margin: 1em auto;
