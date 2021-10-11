@@ -12,7 +12,7 @@ html {
    font-size: 19px;
 }
 a, article, body, div, figcaption, figure, footer, header, h1, 
-h2, h3, img, nav, p, ol, ul, li, dl, dt, dd {
+h2, h3, img, nav, p, ol, ul, li, dl, dt, dd, table, thead, tbody, th, td {
    border: 0;
    padding: 0;
    margin: 0;
@@ -24,6 +24,10 @@ img {
 }
 ol, ul {
    list-style-type: none;
+}
+table {
+   border-collapse: collapse;
+   border-spacing: 0;
 }
 
 /* body and container */
@@ -178,6 +182,22 @@ article  ol {
 }
 article ol li {
    margin-left: 2em;
+}
+/* main content tables */
+table {
+   width: 50%;
+   margin: 0 auto;
+}
+th, td {
+   border: 1px solid black;
+}
+th {
+   padding: 0.1em 0.3em;
+   background-color: #ffcc66;
+}
+td {
+   padding: 0.3em;
+   text-align: left;
 }
 
 /* footer section */
