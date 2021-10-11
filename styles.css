@@ -91,11 +91,11 @@ nav.sitenavigation {
    text-align: center;
    overflow: auto;
 }
-nav.sitenavigation p {
+nav.sitenavigation li {
    padding: 0.3em 0;
    display: inline-block;
 }
-nav.sitenavigation p a {
+nav.sitenavigation li a {
    padding: 0.2em 0.6em;
    display: inline-block;
 }
